@@ -23,7 +23,7 @@ It mimics some PyTorch APIs and provides the **most essential components** to un
 ---
 
 ## Project Structure
-'''
+```
 Javatorch_mini/
 │
 ├─ src/
@@ -41,4 +41,4 @@ Javatorch_mini/
 │ ├─ t10k-images-idx3-ubyte
 │ ├─ t10k-labels-idx1-ubyte
 └─ README.md
-'''
+```
