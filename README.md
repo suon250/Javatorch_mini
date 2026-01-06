@@ -24,3 +24,20 @@ It mimics some PyTorch APIs and provides the **most essential components** to un
 
 ## Project Structure
 
+Javatorch_mini/
+│
+├─ src/
+│ ├─ Tensor.java # Core tensor class with gradient tracking
+│ ├─ Op.java # Operator interface for autograd
+│ ├─ Linear.java # Fully connected (dense) layer
+│ ├─ ReLU.java # ReLU activation function
+│ ├─ SoftmaxCrossEntropy.java # Combined softmax + cross-entropy loss
+│ ├─ MNISTReader.java # MNIST binary file reader
+│ └─ TrainMNIST.java # End-to-end MNIST training example
+│
+├─ data/
+│ ├─ train-images-idx3-ubyte
+│ ├─ train-labels-idx1-ubyte
+│ ├─ t10k-images-idx3-ubyte
+│ ├─ t10k-labels-idx1-ubyte
+└─ README.md
